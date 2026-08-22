@@ -37,7 +37,7 @@ def load_dashboard():
 model, vectorizer, config = load_artifacts()
 dashboard = load_dashboard()
 
-# Same text-cleaning logic used in the practical.
+# Same text-cleaning logic used in the python analysis
 try:
     import nltk
     from nltk.corpus import stopwords
