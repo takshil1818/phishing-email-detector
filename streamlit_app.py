@@ -209,8 +209,7 @@ if page == "Dashboard":
         "It was selected in the practical using the highest test F1-score."
     )
     st.caption(
-        "The dashboard uses the completed practical's recorded experimental results. "
-        "The original 30+ MB dataset is not required by the deployed app."
+        "Research Dashboard"
     )
 
 # ------------------------------------------------------------
