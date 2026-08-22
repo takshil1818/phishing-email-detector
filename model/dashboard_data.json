@@ -1,0 +1,66 @@
+{
+  "dataset_records": 9993,
+  "rows_before_cleaning": 10000,
+  "duplicates_removed": 7,
+  "class_counts": {
+    "Legitimate": 4851,
+    "Phishing": 5142
+  },
+  "mean_features": {
+    "Legitimate": {
+      "email_length": 1438.08,
+      "word_count": 191.06
+    },
+    "Phishing": {
+      "email_length": 1910.36,
+      "word_count": 146.68
+    }
+  },
+  "tfidf_features": 10000,
+  "train_records": 7994,
+  "test_records": 1999,
+  "confusion_matrix": {
+    "TN": 945,
+    "FP": 25,
+    "FN": 23,
+    "TP": 1006
+  },
+  "best_model": "Logistic Regression",
+  "best_parameters": {
+    "C": 2.0
+  },
+  "metrics": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.976,
+      "Precision": 0.9758,
+      "Recall": 0.9776,
+      "F1-Score": 0.9767,
+      "ROC-AUC": 0.9966
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.965,
+      "Precision": 0.9687,
+      "Recall": 0.9631,
+      "F1-Score": 0.9659,
+      "ROC-AUC": 0.994
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.9465,
+      "Precision": 0.9832,
+      "Recall": 0.9116,
+      "F1-Score": 0.946,
+      "ROC-AUC": 0.9939
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.9195,
+      "Precision": 0.9173,
+      "Recall": 0.9271,
+      "F1-Score": 0.9222,
+      "ROC-AUC": 0.9209
+    }
+  ]
+}
